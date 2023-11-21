@@ -1,0 +1,7 @@
+{
+   "python.testing.pytestArgs": [
+      "haarcascades"
+   ],
+   "python.testing.unittestEnabled": false,
+   "python.testing.pytestEnabled": true
+}
