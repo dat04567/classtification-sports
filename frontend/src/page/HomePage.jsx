@@ -101,7 +101,7 @@ export async function action({ request }) {
    if (!datAuth) {
       return json({ isErro: "You don't upload file " }, { status: 401 });
    }
-   const url = 'https://sports-classtication.onrender.com/api/classify_image';
+   const url = 'http://127.0.0.1:8000/api/classify_image';
    const response = await fetch(url, {
       method: 'POST',
       headers: {
